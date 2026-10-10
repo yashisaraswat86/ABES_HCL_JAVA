@@ -1,8 +1,10 @@
 package Collections;
 
 import java.sql.SQLOutput;
+import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Collection ;
 
 public class ListImplementation {
     public static void main(String[] args) {
@@ -26,5 +28,7 @@ public class ListImplementation {
         System.out.println();
         System.out.println(list.get(7));
         System.out.println(list.indexOf(4));
+        Collections.sort(list);
+        System.out.println(list);
     }
 }
